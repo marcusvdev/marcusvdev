@@ -1,0 +1,94 @@
+{
+    "experiences": [
+        {
+            "id": 0,
+            "jobRole": "Web Designer",
+            "company": "Ideia Glass",
+            "type": "Estágio",
+            "startDate": "11/2012",
+            "endDate": "04/2013",
+            "responsibility": "Manutenção do site e criação de landing page de produto."
+        },
+        {
+            "id": 1,
+            "jobRole": "Web Designer",
+            "company": "Itaro Pneus",
+            "type": "PJ",
+            "startDate": "04/2013",
+            "endDate": "10/2013",
+            "responsibility": "Criação de páginas para o e-commerce (Infracommerce)."
+        },
+        {
+            "id": 2,
+            "jobRole": "Desenvolvedor Front-End",
+            "company": "Digitaliza Empresas",
+            "type": "PJ",
+            "startDate": "11/2013",
+            "endDate": "03/2016",
+            "responsibility": "Criação e manutenção de sites em WordPress, programação e disparo de e-mail marketing, manutenção e inserção de produtos em e-commerce (Magento)."
+        },
+        {
+            "id": 3,
+            "jobRole": "Desenvolvedor Front-End",
+            "company": "Agência Colletivo",
+            "type": "Freelancer",
+            "startDate": "08/2014",
+            "endDate": "09/2014",
+            "responsibility": "Programação de um protótipo de Internet Banking e programação de e-mail marketing."
+        },
+        {
+            "id": 4,
+            "jobRole": "Desenvolvedor Front-End",
+            "company": "Agência FG",
+            "type": "CLT",
+            "startDate": "",
+            "endDate": "",
+            "responsibility": "Desenvolvimento e manutenção de site e e-commerce, programação e disparo de e-mail marketing."
+        },
+        {
+            "id": 5,
+            "jobRole": "Analista Splunk",
+            "company": "Logical IT",
+            "type": "CLT",
+            "startDate": "08/2018",
+            "endDate": "01/2019",
+            "responsibility": "Criação de dashboards e atualização de indicadores de segurança."
+        },
+        {
+            "id": 6,
+            "jobRole": "Desenvolvedor Front-End",
+            "company": "Visie Padrões Web",
+            "type": "CLT",
+            "startDate": "08/2019",
+            "endDate": "12/2019",
+            "responsibility": "Desenvolvimento e manutenção de sites WordPress."
+        },
+        {
+            "id": 7,
+            "jobRole": "Desenvolvedor Web",
+            "company": "Roteart Comunicação Digital",
+            "type": "PJ",
+            "startDate": "02/2018",
+            "endDate": "03/2021",
+            "responsibility": "Criação e desenvolvimento de sites Wordpress, landing page, portal e gestão de infraestrutura."
+        },
+        {
+            "id": 8,
+            "jobRole": "Analista de Sistema",
+            "company": "everis an NTT Data",
+            "type": "CLT",
+            "startDate": "04/2020",
+            "endDate": "04/2021",
+            "responsibility": "Desenvolvimento e manutenção de aplicações alocado no Banco Itaú."
+        },
+        {
+            "id": 9,
+            "jobRole": "Analista de Sistema",
+            "company": "Accenture",
+            "type": "CLT",
+            "startDate": "04/2021",
+            "endDate": "",
+            "responsibility": "Desenvolvimento e manutenção de aplicações alocado no Banco Santander."
+        }
+    ]
+}

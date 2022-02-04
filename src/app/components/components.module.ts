@@ -9,15 +9,21 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
-      IntroComponent,
-      AboutComponent,
-      ExperienceComponent,
-      SkillsComponent,
-      ContactComponent,
-      PortfolioComponent
+    IntroComponent,
+    AboutComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    ContactComponent,
+    PortfolioComponent
   ],
   imports: [CommonModule],
   exports: [
+    IntroComponent,
+    AboutComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    ContactComponent,
+    PortfolioComponent
   ]
 })
 export class ComponentsModule { }

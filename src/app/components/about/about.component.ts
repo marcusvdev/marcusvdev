@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { CourseService } from 'src/app/shared/services/course.service';
 
 @Component({
   selector: 'app-about',
@@ -10,17 +9,10 @@ export class AboutComponent implements OnInit {
 
   age!: number;
 
-  courses: [] | any;
-
-  constructor(private courseService: CourseService) { }
+  constructor() { }
 
   ngOnInit(): void {
     this.age = this.myAge('03/09/1993');
-
-    this.courseService.getExperiences().subscribe({
-      next: (n) => this.courses = n.courses,
-      complete: () => console.info('complete')
-    });
   }
 
   public myAge(dateOfBirth: any): number {

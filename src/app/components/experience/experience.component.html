@@ -1,7 +1,15 @@
 <h2>Lista de Experiências</h2>
 
-<ul *ngFor="let experience of experiences;">
-    <li>{{experience.jobRole}}</li>
-    <li>{{experience.company}}</li>
-    <li>{{experience.responsibility}}</li>
-</ul>
+<div class="experiences">
+    <div class="experience" *ngFor="let experience of experiences;">
+        <div class="experience__header">
+            <p class="experience__title">{{experience.jobRole}}</p>
+            <p class="experience__company">{{experience.company}}</p>
+        </div>
+        <div class="experience__dates">
+            <p class="experience__start">{{experience.startDate}}</p>
+            <p class="experience__end">{{experience.endDate}}</p>
+        </div>
+        <p class="experience__text">{{experience.responsibility}}</p>
+    </div>
+</div>

@@ -13,11 +13,14 @@
         margin-bottom: 20px;
         max-width: 200px;
     }
-    &__hello{
-        background-color: white;
-        padding: 15px 40px;
-        border-radius: 100px;
-        font-size: 20px;
+    &__title{
+        color: var(--secondary);
+        font-size: 28px;
         font-weight: 600;
+        margin-bottom: 5px;
+    }
+    &__subtitle{
+        color: var(--primary);
+        font-size: 18px;
     }
 }

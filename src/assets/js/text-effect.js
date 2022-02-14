@@ -11,7 +11,7 @@ function textScramble() {
       _classCallCheck(this, TextScramble);
 
       this.el = el;
-      this.chars = 'abcdefghijklmnopkrs';
+      this.chars = 'abcdefghijklmnopkrstuvxzwy';
       this.update = this.update.bind(this);
     }
 
@@ -77,9 +77,9 @@ function textScramble() {
     return TextScramble;
   }();
   
-  var phrases = ['Marcus Vinicius','Desenvolvedor','Front-End'];
+  var phrases = ['Olá','Hello','Hola', 'Hallo', 'Ciao', 'Hoi'];
 
-  var el = document.querySelector('.text');
+  var el = document.querySelector('.hello-effect');
   var fx = new TextScramble(el);
 
   var counter = 0;

@@ -1,13 +1,10 @@
 <section class="about">
-    
-    Minha idade {{ age }}
-    
-    <h2>Lista de Cursos</h2>
-    <ul *ngFor="let course of courses;">
-        <li>{{course.name}}</li>
-        <li>{{course.school}}</li>
-    </ul>
-    
-    <app-experience></app-experience>
 
+    <div class="container">
+        Minha idade {{ age }}
+        
+        <app-experience></app-experience>
+        <app-courses></app-courses>
+    </div>
+    
 </section>

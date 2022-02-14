@@ -6,6 +6,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ExperienceComponent,
     SkillsComponent,
     ContactComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    CoursesComponent
   ],
   imports: [CommonModule],
   exports: [

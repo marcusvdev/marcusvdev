@@ -1,0 +1,17 @@
+.courses{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+    .course{
+        width: 49%;
+        margin-bottom: 1%;
+        border: 2px solid var(--secondary);
+        padding: 15px;
+    }
+}

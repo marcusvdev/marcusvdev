@@ -1,5 +1,8 @@
 <h2>Lista de Cursos</h2>
-<ul *ngFor="let course of courses;">
-    <li>{{course.name}}</li>
-    <li>{{course.school}}</li>
-</ul>
+
+<div class="courses">
+    <div class="course" *ngFor="let course of courses;">
+        <p>{{course.name}}</p>
+        <p>{{course.school}}</p>
+    </div>
+</div>

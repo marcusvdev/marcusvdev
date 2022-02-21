@@ -1,0 +1,59 @@
+{
+  "skills": [
+      {
+        "id": 0,
+        "name": "Angular",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "TypeScript",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "name": "Teste Unitário",
+        "rating": 3
+      },
+      {
+        "id": 4,
+        "name": "HTML5/CSS3",
+        "rating": 5
+      },
+      {
+        "id": 5,
+        "name": "SASS/SCSS",
+        "rating": 5
+      },
+      {
+        "id": 6,
+        "name": "WordPress",
+        "rating": 5
+      },
+      {
+        "id": 7,
+        "name": "PHP",
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "name": "Scrum",
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "name": "Git/Gitflow",
+        "rating": 4
+      },
+      {
+        "id": 9,
+        "name": "Ui/Ux",
+        "rating": 4
+      }
+  ]
+}

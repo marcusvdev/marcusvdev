@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  @include mq("1280", max) {
+    max-width: 1024px;
+  }
+  @include mq("tablet", max) {
+    padding: 0 20px;
+  }
+}

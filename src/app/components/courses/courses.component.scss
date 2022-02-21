@@ -1,17 +1,24 @@
-.courses{
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
+h3 {
+  margin: 20px 0;
+}
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
+.courses {
+  width: 100%;
 
-    .course{
-        width: 49%;
-        margin-bottom: 1%;
-        border: 2px solid var(--secondary);
-        padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+
+  .course {
+    width: calc(96% / 4);
+    margin-bottom: 2%;
+    border: 2px solid var(--secondary);
+    padding: 15px;
+
+    &__name {
+      font-weight: bold;
+      color: var(--primary);
     }
+  }
 }

@@ -1,8 +1,17 @@
-.hello-effect {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: var(--secondary);
-}
-.dud {
-    color: var(--primary);
-}
+@import "./abstracts/colors";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./base/fonts";
+@import "./base/normalize";
+@import "./base/typhography";
+
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./components/text-effect";
+@import "./components/title-section";
+
+@import "./vendors/slick";

@@ -1,3 +1,20 @@
 .title-section {
   color: $secondary;
+  margin-bottom: 20px;
+
+  &:after {
+    content: "|";
+    display: inline-block;
+    vertical-align: 1px;
+    animation: fade 1200ms infinite;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { repos } from 'src/app/shared/models/repositories';
 import { GithubService } from 'src/app/shared/services/github.service';
 
@@ -9,8 +9,8 @@ import { GithubService } from 'src/app/shared/services/github.service';
 })
 export class PortfolioComponent implements OnInit {
 
-  userName: string ="marcusvdev";
-  repos: repos[] | any;
+  userName: string = "marcusvdev";
+  repos: repos[] = [];
   errorMessage: any;
 
   constructor(private githubService: GithubService) { }
@@ -22,7 +22,6 @@ export class PortfolioComponent implements OnInit {
         error: (e) => this.errorMessage = e,
         complete: () => console.info('complete')
       });
-      
   }
 
 }

@@ -1,7 +1,12 @@
-<p>portfolio works!</p>
+<section class="portfolio">
+    <div class="container">
+        <h2 class="title-section">Portfólio</h2>
 
-<ul *ngFor="let repo of repos;">
-    <li>{{repo.name}}</li>
-    <li>{{repo.html_url}}</li>
-    <li>{{repo.description}}</li>
-</ul>
+        <h3>Meus repositórios</h3>
+        <ul *ngFor="let repo of repos;">
+            <li>{{repo.name}}</li>
+            <li>{{repo.html_url}}</li>
+            <li>{{repo.description}}</li>
+        </ul>
+    </div>
+</section>

@@ -1,13 +1,13 @@
 <h3>Trajetória</h3>
 <div class="experiences">
-    <div class="experience" *ngFor="let experience of experiences;">
+    <div class="experience" *ngFor="let experience of experiences">
         <div class="experience__header">
             <p class="experience__title">{{experience.jobRole}}</p>
             <p class="experience__company">{{experience.company}}</p>
         </div>
         <div class="experience__dates">
             <p class="experience__start">{{experience.startDate}}</p>
-            <p class="experience__end">{{experience.endDate}}</p>
+            <p class="experience__end">{{experience.endDate ? experience.endDate : 'Atual'}}</p>
         </div>
         <p class="experience__text">{{experience.responsibility}}</p>
     </div>
